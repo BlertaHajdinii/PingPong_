@@ -12,13 +12,13 @@ on:
 
     branches: 
 
-      - production 
+      - main 
 
   pull_request: 
 
     branches: 
 
-      - production 
+      - main 
 
        
 
@@ -50,4 +50,4 @@ jobs:
 
           key: ${{ secrets.SSHKEY }} 
 
-          script: "cd /var/www/PingPong && /var/www/deploy.sh" 
+          script: "cd /var/www/PingPong_ && /var/www/deploy.sh" 
